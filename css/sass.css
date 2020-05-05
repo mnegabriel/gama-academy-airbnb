@@ -1,1 +1,178 @@
-/* No CSS *//*# sourceMappingURL=sass.css.map */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap");
+.card__title, .card__type, .card__price {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #bdc3c7;
+  font-family: "Nunito", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.deck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  margin: 10px 0;
+  -webkit-box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card__img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__content {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 70%;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.card__type {
+  font-weight: 400;
+  color: black;
+  opacity: 0.6;
+}
+
+.card__typeCasa::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin-right: 5px;
+}
+
+.card__typeApt::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin-right: 5px;
+}
+
+.card__typeLoft::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin-right: 5px;
+}
+
+.card__typeChacara::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin-right: 5px;
+}
+
+.card__typeEstudio::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin-right: 5px;
+}
+
+.card__typeQuarto::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin-right: 5px;
+}
+
+.card__typeSitio::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin-right: 5px;
+}
+
+.card__adr {
+  opacity: .6;
+  font-size: .8em;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.card__price {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: absolute;
+  padding: 8px 20px;
+  border: 1px solid lime;
+  border-radius: 10px;
+  color: lime;
+}
+
+.card__price:hover {
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  background-color: lime;
+  color: white;
+}
+/*# sourceMappingURL=sass.css.map */
