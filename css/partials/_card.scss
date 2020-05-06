@@ -1,0 +1,88 @@
+.card {
+    background-color: white;
+    border-radius: 5px;
+    min-width: 300px;
+    margin: 10px 0;
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, .3);
+    &__img {
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    &__content {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__title,
+    &__type,
+    &__price {
+        padding: 0;
+        margin: 0;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: black;
+        padding-bottom: 10px;
+    }
+    &__type {
+        font-weight: 400;
+        color: black;
+        opacity: 0.6;
+        &Casa {
+            @include icon-fa($icon-house);
+        }
+        &Apt {
+            @include icon-fa($icon-apt);
+        }
+        &Loft {
+            @include icon-fa($icon-loft);
+        }
+        &Chacara {
+            @include icon-fa($icon-chac);
+        }
+        &Estudio {
+            @include icon-fa($icon-studio);
+        }
+        &Quarto {
+            @include icon-fa($icon-room);
+        }
+        &Sitio {
+            @include icon-fa($icon-sitio);
+        }
+    }
+    &__adr {
+        opacity: .6;
+        font-size: .8em;
+        font-weight: 200;
+        margin-bottom: 0;
+    }
+    &__price {
+        align-self: flex-end;
+        padding: 8px 20px;
+        border: 1px solid lime;
+        border-radius: 10px;
+        color: lime;
+        &:hover {
+            transition: ease-in-out 0.2s;
+            background-color: lime;
+            color: white;
+        }
+    }
+}
+
+@media (min-width:$xs) {
+    .card {
+        display: flex;
+        &__img {
+            // height: 100%;
+            border-radius: 5px 0 0 5px;
+            width: 35%;
+        }
+        &__price {
+            position: relative;
+        }
+    }
+}
