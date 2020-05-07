@@ -1,6 +1,6 @@
 #deck {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
@@ -8,8 +8,8 @@
 
 @media (min-width:$sm) {
     #deck {
-        width: 55%;
+        width: 660px;
         padding: 0 20px;
-        margin-left: 10px;
+        margin-left: 5%;
     }
 }

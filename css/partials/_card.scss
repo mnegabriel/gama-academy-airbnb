@@ -14,7 +14,6 @@
         padding: 15px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
     &__title,
     &__type,
@@ -79,19 +78,15 @@
         display: flex;
         &__img {
             border-radius: 5px 0 0 5px;
-            width: 45%;
+            max-width: 45%;
             max-height: 185px;
+        }
+        &__content {
+            width: -webkit-fill-available;
         }
         &__price {
             position: relative;
-        }
-    }
-}
-
-@media (min-width:$xs) {
-    .card {
-        &__img {
-            width: 80%;
+            margin-top: auto;
         }
     }
 }
