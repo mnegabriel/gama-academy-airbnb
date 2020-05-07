@@ -1,4 +1,4 @@
-.deck {
+#deck {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 @media (min-width:$sm) {
-    .deck {
+    #deck {
         width: 55%;
         padding: 0 20px;
         margin-left: 10px;
