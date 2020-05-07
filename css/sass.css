@@ -42,7 +42,7 @@ body {
 .card__img {
   border-radius: 5px 5px 0 0;
   width: 100%;
-  height: auto;
+  max-height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -56,6 +56,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .card__title, .card__type, .card__price {
@@ -191,10 +194,17 @@ body {
   }
   .card__img {
     border-radius: 5px 0 0 5px;
-    width: 35%;
+    width: 45%;
+    max-height: 185px;
   }
   .card__price {
     position: relative;
+  }
+}
+
+@media (min-width: 576px) {
+  .card__img {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=sass.css.map */
