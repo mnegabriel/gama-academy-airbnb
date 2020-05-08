@@ -1,6 +1,6 @@
 console.log('JS connected');
-let summon = document.querySelector('#summon');
-let deck = document.querySelector('#deck');
+let summon = document.querySelector('.summon');
+let deck = document.querySelector('.deck');
 
 summon.addEventListener('click', function() {
     fetch('https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72')
@@ -50,7 +50,7 @@ summon.addEventListener('click', function() {
                     <p class="card__adr">Endereço</p>
                     <p class="card__price">R$${location.price},00 / dia</p>
                 </div>`;
-                document.getElementById('deck').appendChild(newCard);
+                document.querySelector('.deck').appendChild(newCard);
             })
         })
 });

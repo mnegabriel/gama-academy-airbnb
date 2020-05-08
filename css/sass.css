@@ -7,7 +7,7 @@ body {
           box-sizing: border-box;
 }
 
-#deck {
+.deck {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,7 +23,7 @@ body {
 }
 
 @media (min-width: 769px) {
-  #deck {
+  .deck {
     width: 660px;
     padding: 0 20px;
     margin-left: 5%;
@@ -203,7 +203,7 @@ body {
   }
 }
 
-#summon {
+.summon {
   display: block;
   margin-top: 100px;
 }
@@ -224,6 +224,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 1;
 }
 
 .mainNav__logo {
@@ -253,7 +254,7 @@ body {
   .mainNav {
     padding-left: calc(5% + 20px);
     padding-right: calc(5% + 20px);
-    width: 84%;
+    width: calc(90% - 40px);
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;

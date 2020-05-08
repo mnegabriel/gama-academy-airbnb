@@ -3,7 +3,7 @@
 @import "./partials/body";
 @import "./partials/deck";
 @import "./partials/card";
-#summon {
+.summon {
     display: block;
     margin-top: 100px;
 }
@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
     &__logo {
         border-bottom: 2px solid limegreen;
         &Pt1,
@@ -44,7 +45,7 @@
     .mainNav {
         padding-left: calc(5% + 20px);
         padding-right: calc(5% + 20px);
-        width: 84%;
+        width: calc(90% - 40px);
         flex-direction: row;
         justify-content: space-between;
         &__content {
