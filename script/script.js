@@ -35,8 +35,10 @@ window.onload = function() {
                     db1: db1Array[i],
                     db2: db2Array[i]
                 };
-            });
+            })
             console.log(final);
+        })
+        .then(function() {
 
             //for each object inside the variable 'final'
             final.forEach(function(data) {
@@ -84,5 +86,6 @@ window.onload = function() {
                 </div>`;
                 document.querySelector('.deck').appendChild(newCard);
             })
-        }))
+        })
+    )
 }
