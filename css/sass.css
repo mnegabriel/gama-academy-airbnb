@@ -81,7 +81,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  margin: 0 auto;
+  margin: 100px auto 0;
 }
 
 @media (min-width: 769px) {
@@ -274,10 +274,5 @@ body {
     position: relative;
     margin-top: auto;
   }
-}
-
-.summon {
-  display: block;
-  margin-top: 100px;
 }
 /*# sourceMappingURL=sass.css.map */
