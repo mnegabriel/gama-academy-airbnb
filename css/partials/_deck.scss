@@ -8,8 +8,9 @@
 
 @media (min-width:$sm) {
     .deck {
-        width: 660px;
+        width: 60%;
+        max-width: 600px;
         padding: 0 20px;
-        margin-left: 5%;
+        margin-left: 0;
     }
 }

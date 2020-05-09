@@ -2,7 +2,7 @@ console.log('JS connected');
 let summon = document.querySelector('.summon');
 let deck = document.querySelector('.deck');
 
-window.onload = function() {
+summon.addEventListener('click', function() {
     fetch('https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72')
         .then(function(response) {
             return response.json();
@@ -53,4 +53,4 @@ window.onload = function() {
                 document.querySelector('.deck').appendChild(newCard);
             })
         })
-};
+});

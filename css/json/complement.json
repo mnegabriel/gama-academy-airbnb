@@ -1,0 +1,145 @@
+[{
+        "Endereço": "R. Juvenal de Carvalho, 1029",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5245032",
+        "Longitude": "-3,7511704"
+    },
+    {
+        "Endereço": "R. Vinte e Cinco de Março, 200",
+        "Bairro": "Centro",
+        "Latitude": "-38,5216951",
+        "Longitude": "-3,7257806"
+    },
+    {
+        "Endereço": "R. Leonardo Mota, 1792",
+        "Bairro": "Aldeota",
+        "Latitude": "-38,4979943",
+        "Longitude": "-3,7418026"
+    },
+    {
+        "Endereço": "R. Zózimo Barroso, 2",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5280617",
+        "Longitude": "-3,7504679"
+    },
+    {
+        "Endereço": "R. Bonfim Sobrinho, 319",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5244968",
+        "Longitude": "-3,7511696"
+    },
+    {
+        "Endereço": "Rua Dr. José Vitor, 451",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5267202",
+        "Longitude": "-3,7479639"
+    },
+    {
+        "Endereço": "Av. Santos Dumont, 2052",
+        "Bairro": "Aldeota",
+        "Latitude": "-38,5057274",
+        "Longitude": "-3,7341895"
+    },
+    {
+        "Endereço": "Rua Dom Sebastião Leme, 952",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5256007",
+        "Longitude": "-3,7500773"
+    },
+    {
+        "Endereço": "R. Jorge da Rocha, 329",
+        "Bairro": "Aldeota",
+        "Latitude": "-38,5038184",
+        "Longitude": "-3,7359228"
+    },
+    {
+        "Endereço": "R. Nogueira Acioli, 866",
+        "Bairro": "Centro",
+        "Latitude": "-38,5173212",
+        "Longitude": "-3,7314966"
+    },
+    {
+        "Endereço": "Rua Conselheiro Tristão, 1383",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5290212",
+        "Longitude": "-3,7460187"
+    },
+    {
+        "Endereço": "R. Guilherme Moreira, 499",
+        "Bairro": "Fátima",
+        "Latitude": "-38,527147",
+        "Longitude": "-3,7502406"
+    },
+    {
+        "Endereço": "R. Monsenhor Bruno, 2089",
+        "Bairro": "Aldeota",
+        "Latitude": "-38,5121022",
+        "Longitude": "-3,7406389"
+    },
+    {
+        "Endereço": "R. Carolino de Aquino, 131",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5274941",
+        "Longitude": "-3,747876"
+    },
+    {
+        "Endereço": "R. Fiúsa de Pontes, 660",
+        "Bairro": "Centro",
+        "Latitude": "-38,5129523",
+        "Longitude": "-3,7351488"
+    },
+    {
+        "Endereço": "R. Joaquim Nabuco, 1584",
+        "Bairro": "Aldeota",
+        "Latitude": "-38,5025911",
+        "Longitude": "-3,7392747"
+    },
+    {
+        "Endereço": "Rua Bárbara de Alencar, 1887",
+        "Bairro": "Aldeota",
+        "Latitude": "-38,5075747",
+        "Longitude": "-3,7399659"
+    },
+    {
+        "Endereço": "R. Rodrigues Júnior, 844",
+        "Bairro": "Centro",
+        "Latitude": "-38,5211082",
+        "Longitude": "-3,732189"
+    },
+    {
+        "Endereço": "Rua Solon Pinheiro, 487",
+        "Bairro": "Centro",
+        "Latitude": "-38,5276776",
+        "Longitude": "-3,7346298"
+    },
+    {
+        "Endereço": "Rua Ministro Joaquim Bastos, 642",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5299862",
+        "Longitude": "-3,7522502"
+    },
+    {
+        "Endereço": "R. Graciliano Ramos, 300",
+        "Bairro": "Fátima",
+        "Latitude": "-38,5289858",
+        "Longitude": "-3,7546647"
+    },
+    {
+        "Endereço": "Av. Deputado Oswaldo Studart, 34",
+        "Bairro": "Fátima",
+        "Latitude": "-38,526706",
+        "Longitude": "-3,7518169"
+    },
+    {
+        "Endereço": "R. Gonçalves Lêdo, 1246",
+        "Bairro": "Centro",
+        "Latitude": "-38,5177548",
+        "Longitude": "-3,7353764"
+    },
+    {
+        "Endereço": "Rua General Tertuliano Potiguara, 149",
+        "Bairro": "Aldeota",
+        "Latitude": "-38,5025399",
+        "Longitude": "-3,7424913"
+    }
+]

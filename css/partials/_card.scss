@@ -4,6 +4,7 @@
     min-width: 300px;
     margin: 10px 0;
     box-shadow: 10px 5px 25px rgba(0, 0, 0, .3);
+    transition: 1s;
     &__img {
         border-radius: 5px 5px 0 0;
         width: 100%;
@@ -57,7 +58,6 @@
         opacity: .6;
         font-size: .8em;
         font-weight: 200;
-        margin-bottom: 0;
     }
     &__price {
         align-self: flex-end;
@@ -76,10 +76,19 @@
 @media (min-width:$xs) {
     .card {
         display: flex;
+        max-height: 200px;
         &__img {
             border-radius: 5px 0 0 5px;
             max-width: 45%;
-            max-height: 185px;
+        }
+        &__title {
+            font-size: 0.8em;
+            font-weight: 400;
+            &::first-line {
+                font-size: 1.3em;
+                font-weight: 900;
+                line-height: 2em;
+            }
         }
         &__content {
             width: -webkit-fill-available;
