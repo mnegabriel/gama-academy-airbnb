@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/62ed4f4c10.js" crossorigin="anonymous"></script>
-    <link href="css/normalize.css" rel="stylesheet">
+    <!-- <link href="css/normalize.css" rel="stylesheet"> -->
     <link href="css/sass.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ed4f4c10.js" crossorigin="anonymous"></script>
     <title>GairBnb</title>
 </head>
 
 <body>
-    <nav class="mainNav">
-        <div class="mainNav__logo">
-            <span class="mainNav__logoPt1">Gair</span>
-            <span class="mainNav__logoPt2">bnb</span>
+    <nav>
+        <div class="mainNav">
+            <div class="mainNav__logo">
+                <span class="mainNav__logoPt1">Gair</span>
+                <span class="mainNav__logoPt2">bnb</span>
+            </div>
+            <div class="mainNav__content">
+                <button>Placeholder</button>
+            </div>
         </div>
-        <div class="mainNav__content">
-            <button>Placeholder</button>
-        </div>
-
     </nav>
 
     <div id="map"></div>
@@ -39,33 +41,22 @@
         -->
 
     </div>
-    <script>
-        // function initMap() {
-        //     //Map options
-        //     var options = {
-        //         zoom: 14,
-        //         center: {
-        //             lat: -3.731862,
-        //             lng: -38.526669
-        //         }
-        //     }
 
-        //     //New map
-        //     var map = new google.maps.Map(document.getElementById('map'), options)
+    <footer class="rodape">
+        <div class="rodape__content">
+            <div class="rodape__texto">
+                <p>Sonhado e realizado por Gabriel Dantas</p>
+            </div>
 
-        //     //Add marker
-        //     var marker = new google.maps.Marker({
-        //         position: {
-        //             lat: -3.7511704,
-        //             lng: -38.5245032
-        //         },
-        //         map: map
-        //     });
-        // }
-    </script>
+            <div class="rodape__icons">
+                <a target="_blank" href="https://github.com/mnegabriel"><i class="fab fa-github-square"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mnegabriel/"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.instagram.com/mnegabriel/"><i class="fab fa-instagram-square"></i></a>
+            </div>
+        </div>
+    </footer>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABtuIDPvt_qJD-Iw2NdxKT61BpAOEm720&callback=initMap">
-    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABtuIDPvt_qJD-Iw2NdxKT61BpAOEm720&callback=initMap"></script>
 
     <script src="script/script.js"></script>
     <!-- <script src="script/map.js"></script> -->

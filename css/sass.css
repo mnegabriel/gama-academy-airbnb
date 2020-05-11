@@ -7,12 +7,17 @@ body {
           box-sizing: border-box;
 }
 
-.mainNav {
+nav {
   background-color: white;
   padding: 20px 0 30px;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
+  z-index: 1;
+}
+
+.mainNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,7 +28,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 1;
 }
 
 .mainNav__logo {
@@ -54,6 +58,9 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     width: calc(100% - 40px);
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -81,7 +88,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  margin: 0 auto 0;
+  margin: 0 auto 80px;
 }
 
 @media (min-width: 868px) {
@@ -103,6 +110,7 @@ body {
           box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.3);
   -webkit-transition: 1s;
   transition: 1s;
+  width: 100%;
 }
 
 .card__img {
@@ -269,7 +277,7 @@ body {
     line-height: 2em;
   }
   .card__content {
-    width: -webkit-fill-available;
+    width: 100%;
   }
   .card__price {
     position: relative;
@@ -289,7 +297,7 @@ body {
     -webkit-transform-origin: right center;
             transform-origin: right center;
     width: 35%;
-    height: calc(100vh - 170px);
+    height: calc(100vh - 177px);
     margin: 0;
     top: 15vh;
     right: 0px;
@@ -300,5 +308,49 @@ body {
   #map {
     width: calc(100vw - 660px);
   }
+}
+
+.rodape {
+  background: linear-gradient(25deg, limegreen 60%, lime);
+  padding: 00px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.rodape * {
+  color: white;
+}
+
+.rodape__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: calc(100% - 40px);
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rodape__texto {
+  font-weight: 900;
+  width: 50%;
+}
+
+.rodape__icons {
+  font-size: 30px;
+}
+
+.rodape__icons > * {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=sass.css.map */

@@ -1,14 +1,18 @@
-.mainNav {
-    //visibility: hidden;
+nav {
     background-color: white;
     padding: 20px 0 30px;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    z-index: 1;
+}
+
+.mainNav {
+    //visibility: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 1;
     &__logo {
         border-bottom: 2px solid limegreen;
         &Pt1,
@@ -36,6 +40,9 @@
         padding-left: 20px;
         padding-right: 20px;
         width: calc(100% - 40px);
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
         flex-direction: row;
         justify-content: space-between;
         &__content {

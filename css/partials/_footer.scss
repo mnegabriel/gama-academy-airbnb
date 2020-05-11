@@ -1,0 +1,32 @@
+.rodape {
+    background: linear-gradient(25deg, limegreen 60%, lime);
+    padding: 00px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    & * {
+        color: white;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: calc(100% - 40px);
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__texto {
+        font-weight: 900;
+        width: 50%;
+    }
+    &__icons {
+        font-size: 30px;
+        &>* {
+            margin-left: 15px;
+        }
+    }
+}
